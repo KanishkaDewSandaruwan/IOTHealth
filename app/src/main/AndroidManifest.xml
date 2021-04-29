@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iothealth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IOTHealth">
+        <activity android:name=".PatientsMedicalHistory"></activity>
+        <activity android:name=".Mesure" />
+        <activity android:name=".MYDetails" />
+        <activity android:name=".PatientTreatment" />
+        <activity android:name=".EditPatients" />
+        <activity android:name=".PatientsMoreDetails" />
+        <activity android:name=".MedicalHistory" />
+        <activity android:name=".PatientsList" />
+        <activity android:name=".DoctorRegisterDetails" />
+        <activity android:name=".DoctorRegistration" />
+        <activity android:name=".DoctorMain" />
+        <activity android:name=".PatientRegisterDetails" />
+        <activity android:name=".PatientRegistration" />
+        <activity android:name=".PatientMain" />
+        <activity android:name=".DoctorLogin" />
+        <activity android:name=".PatientLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

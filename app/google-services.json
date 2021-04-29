@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850346242322",
+    "project_id": "iothealth-e881a",
+    "storage_bucket": "iothealth-e881a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850346242322:android:4f884d0953aed6b8ae83cb",
+        "android_client_info": {
+          "package_name": "com.example.iothealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850346242322-4gqvvpl57a9uasna6en3hflr8qoottt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc5rNDJf30UxGTngwmww2mMzRNWCg966Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850346242322-4gqvvpl57a9uasna6en3hflr8qoottt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

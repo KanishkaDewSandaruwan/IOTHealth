@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">IOT Patient Monitoring</string>
+
+    <string name="who">Who are You</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patients</string>
+
+    <string name="patient_login">Login</string>
+    <string name="patient_Username">Email</string>
+    <string name="patient_Password">Password</string>
+    <string name="patient_log">Patient Login</string>
+
+    <string name="doctor_login">Login</string>
+    <string name="doctor_Username">Email</string>
+    <string name="doctor_Password">Password</string>
+    <string name="doctor_log">Doctor Login</string>
+
+
+    <string name="p_reg">Register</string>
+    <string name="p_uname">Email</string>
+    <string name="p_pass">Password</string>
+    <string name="p_repass">Confirm Password</string>
+
+
+    <string name="p_DetailTitle">Patient Details</string>
+    <string name="p_name">Name</string>
+    <string name="p_mobile">Mobile Number</string>
+    <string name="p_gender">Gender</string>
+    <string name="p_addtrss">Address</string>
+    <string name="p_nic">NIC Number</string>
+    <string name="p_save">Save Details</string>
+    <string name="p_male">Male</string>
+    <string name="p_female">Female</string>
+    <string name="title_activity_doctor_details">DoctorDetails</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="d_DetailTitle">Doctor Details</string>
+    <string name="d_RegNumber">Doctor Registration Number</string>
+</resources>

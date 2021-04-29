@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPatients">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Patients Details Edit"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editUpdateName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <Button
+        android:id="@+id/btnUpdateDetails"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/p_save"
+        android:textColor="#F3EFEF"
+        android:textSize="18sp"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editUpdateNIC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:hint="@string/p_nic"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdateDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editUpdateMobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/p_mobile"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editUpdateNIC"
+        app:layout_constraintEnd_toEndOf="@+id/editUpdateNIC"
+        app:layout_constraintStart_toStartOf="@+id/editUpdateNIC" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="355dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/editUpdateMobile"
+        app:layout_constraintEnd_toEndOf="@+id/editUpdateMobile"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editUpdateMobile">
+
+        <RadioButton
+            android:id="@+id/radioUpdateMale"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:text="@string/p_male" />
+
+        <RadioButton
+            android:id="@+id/radioUpdateFeMale"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="@string/p_female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editUpdateAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/p_addtrss"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/editUpdateName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/p_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editUpdateAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editUpdateAddress"
+        app:layout_constraintStart_toStartOf="@+id/editUpdateAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
